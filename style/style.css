@@ -8,18 +8,19 @@
 }
 
 body{
+    font-family: 'Work Sans', sans-serif;
+    /* display: 100%; */
     width: 100vw;
 }
-/* first section */
+/*---------------------
+   first section Start
+  ---------------------*/
 
 .hide{
     display: none;
 }
 
-body{
-    font-family: 'Work Sans', sans-serif;
-    /* display: 100%; */
-}
+
 .container{
     background-color: #FFF4E7;
     width: 100vw;
@@ -69,7 +70,15 @@ body{
     list-style: none;
 }
 
-/* banner section */
+/*---------------------
+   first section end
+  ---------------------*/
+
+
+
+/* ---------------------
+   banner section start 
+   ---------------------*/
 
 .banner {
     width: 100vw;
@@ -124,9 +133,18 @@ body{
     margin: 0 200px;
 }
 
-/* banner section  end */
+/* ---------------------
+   banner section end 
+   ---------------------*/
 
-/* blog section start */
+
+
+
+/* --------------------
+    blog section start
+    ------------------- */
+
+
 .blog-container{
     display: flex;
     width: 70%;
@@ -191,9 +209,18 @@ body{
     border: 0;
     border-radius: 8px;
 }
-/* blog section end */
 
-/* experience section start */
+
+/* --------------------
+    blog section end
+    ------------------- */
+
+
+
+
+/* ---------------------------
+    experience section start
+    -------------------------- */
 
 .exp {
     width: 100vw;
@@ -261,7 +288,13 @@ body{
     color: #727272;
 }
 
-/* btn section start */
+
+
+/* -------------------
+    btn section start
+    ------------------ */
+
+
 
 .button-container{
     text-align: center;
@@ -288,14 +321,22 @@ body{
     font-size: 15px;
 }
 
-/* btn section end */
+/* -----------------
+    btn section end
+    --------------- */
 
 
-/* experience section end */
+
+
+/* ---------------------------
+    experience section end
+    -------------------------- */
 
 
 
-/* Middle section start */
+/* ----------------------
+    Middle section start
+    --------------------- */
 
 .mid-section{
     width: 70%;
@@ -316,9 +357,17 @@ body{
     color: #727272;
 }
 
-/* Middle section end */
 
-/* projects container section start */
+
+/* ----------------------
+    Middle section end
+    --------------------- */
+
+
+
+/* ------------------------------------
+    projects container section start
+    ----------------------------------- */
 
 .projects-container {
     width: 60%;
@@ -353,10 +402,18 @@ body{
 }
 
 
-/* projects container section end */
+
+/* ------------------------------------
+    projects container section end
+    ----------------------------------- */
 
 
-/* Sponsorship Section Start */
+
+
+
+/* ----------------------------
+   Sponsorship Section Start 
+   ----------------------------*/
 
     .sponsor-container{
         width: 70%;
@@ -395,9 +452,17 @@ body{
         height: 30px;
     }
 
-/* Sponsorship Section End */
 
-/* footer section start */
+    
+/* ----------------------------
+   Sponsorship Section Start 
+  ----------------------------*/
+
+
+
+/* -----------------------
+   footer section start
+   -----------------------*/
 
 .footer{
     text-align: center;
@@ -409,13 +474,27 @@ body{
 
 }
 
-/* footer section end */
+
+/* -----------------------
+   footer section start
+   -----------------------*/
 
 
 
-/* -------------------------------
-     responsive for mini devices 
-  --------------------------------*/
+
+
+/* ---------------------------------------
+--------------------------------------------
+    Responsive Section For all Devices 
+--------------------------------------------
+    ------------------------------------*/
+
+
+
+
+/* ------------------------------------
+     responsive for mini devices start 
+  --------------------------------------*/
 
 
 @media only screen and (max-width: 688px) {
@@ -439,10 +518,38 @@ body{
 
 
 
-/* -------------------------------
-     responsive for Mid devices 
-  --------------------------------*/
+/* ------------------------------------
+     responsive for mini devices end 
+  --------------------------------------*/
 
-/* -------------------------------
-     responsive for Large devices 
-  --------------------------------*/
+
+
+
+  
+
+
+
+/* -----------------------------------
+     responsive for Mid devices start
+  ------------------------------------*/
+
+
+
+
+/* -----------------------------------
+     responsive for Mid devices end
+  ------------------------------------*/
+
+
+
+
+
+
+/* --------------------------------------
+     responsive for Large devices start 
+  ---------------------------------------*/
+
+
+/* -------------------------------------
+     responsive for Large devices end
+  --------------------------------------*/
